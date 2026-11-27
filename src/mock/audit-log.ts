@@ -1,0 +1,113 @@
+import type { AuditCategory, AuditEvent, AuditMeta } from "@/types/audit-log";
+
+export const auditMeta: AuditMeta = {
+  subtitle:
+    "Append-only record of consent, deletion, content and legal events · FR-ADM-06",
+  banner:
+    "Entries cannot be edited or deleted. Each event is signed and stored in write-once storage. Revealing masked health data always appears here with a reason.",
+  dateLabel: "Nov 19, 2026",
+};
+
+export const auditFilters: { id: AuditCategory; label: string }[] = [
+  { id: "all", label: "All events" },
+  { id: "consent", label: "Consent changes" },
+  { id: "deletion", label: "Data deletion" },
+  { id: "content", label: "Content governance" },
+  { id: "legal", label: "Legal requests" },
+  { id: "reveal", label: "Data reveals" },
+];
+
+export const auditEvents: AuditEvent[] = [
+  {
+    id: "evt-1",
+    time: "14:32",
+    actor: "Data Protection Officer",
+    action: "Revealed a masked value",
+    target: "USR-0B6F-72A9",
+    result: "Reason: case RC-1042",
+    resultTone: "lavender",
+    category: "reveal",
+  },
+  {
+    id: "evt-2",
+    time: "14:10",
+    actor: "Support Agent",
+    action: "Started account recovery",
+    target: "USR-0B6F-72A9",
+    result: "Case RC-1042",
+    resultTone: "peach",
+    category: "deletion",
+  },
+  {
+    id: "evt-3",
+    time: "13:48",
+    actor: "Trust & Safety Moderator",
+    action: "Removed a post",
+    target: "CR-878",
+    result: "Misinformation",
+    resultTone: "coral",
+    category: "content",
+  },
+  {
+    id: "evt-4",
+    time: "13:05",
+    actor: "Data Protection Officer",
+    action: "Logged a legal data-access request",
+    target: "LR-2026-014",
+    result: "In review",
+    resultTone: "warn",
+    resultDot: true,
+    category: "legal",
+  },
+  {
+    id: "evt-5",
+    time: "12:40",
+    actor: "Super Admin",
+    action: "Scheduled a tier change",
+    target: "Symptom-frequency trends",
+    result: "90-day grandfathering on",
+    resultTone: "teal",
+    category: "content",
+  },
+  {
+    id: "evt-6",
+    time: "11:22",
+    actor: "Clinical Content Officer",
+    action: "Approved an article",
+    target: "Understanding your cycle phases",
+    result: "Published",
+    resultTone: "teal",
+    category: "content",
+  },
+  {
+    id: "evt-7",
+    time: "10:15",
+    actor: "Analyst",
+    action: "Exported an aggregate report",
+    target: "Dashboard",
+    result: "No user-level data",
+    resultTone: "muted",
+    category: "legal",
+  },
+  {
+    id: "evt-8",
+    time: "09:03",
+    actor: "Super Admin",
+    action: "Tried to change a consent setting",
+    target: "Partner offers",
+    result: "Blocked · needs review",
+    resultTone: "danger",
+    resultDot: true,
+    category: "consent",
+  },
+  {
+    id: "evt-9",
+    time: "08:47",
+    actor: "System",
+    action: "Completed a deletion request",
+    target: "USR-6D41-C8B7",
+    result: "Confirmation sent",
+    resultTone: "teal",
+    category: "deletion",
+  },
+];

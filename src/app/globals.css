@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  /* Surfaces — slightly deeper warm tones */
+  --background: #efe8e6;
+  --foreground: #221c1e;
+  --surface: #ffffff;
+  --surface-muted: #f3eceb;
+  --surface-pink: #ebe1e1;
+  --border: #d9cdcf;
+  --border-strong: #c9bbbe;
+
+  /* Brand — richer rose */
+  --primary: #b24a68;
+  --primary-hover: #953a55;
+  --primary-foreground: #ffffff;
+  --primary-soft: #efd5de;
+  --primary-deep: #7a2f48;
+
+  /* Text */
+  --muted: #6b6165;
+  --muted-foreground: #8f8589;
+
+  /* Search / chrome */
+  --search-bg: #ebe1df;
+
+  /* Status — stronger soft fills */
+  --teal: #0d6b64;
+  --teal-bg: #c5ebe6;
+  --success: #0d6b64;
+  --success-bg: #c5ebe6;
+  --warning: #8a5f16;
+  --warning-bg: #f0e0b8;
+  --danger: #a31f15;
+  --danger-bg: #f7d4d0;
+  --info: #0d6b64;
+  --info-bg: #c5ebe6;
+  --accent: #5b21b6;
+  --accent-bg: #e0d4fa;
+  --coral: #a33d52;
+  --coral-bg: #f0d0d9;
+  --lavender: #5c4d84;
+  --lavender-bg: #ddd5f0;
+
+  /* Layout */
+  --sidebar-width: 260px;
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 16px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-surface-pink: var(--surface-pink);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-deep: var(--primary-deep);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-search-bg: var(--search-bg);
+  --color-teal: var(--teal);
+  --color-teal-bg: var(--teal-bg);
+  --color-success: var(--success);
+  --color-success-bg: var(--success-bg);
+  --color-warning: var(--warning);
+  --color-warning-bg: var(--warning-bg);
+  --color-danger: var(--danger);
+  --color-danger-bg: var(--danger-bg);
+  --color-info: var(--info);
+  --color-info-bg: var(--info-bg);
+  --color-accent: var(--accent);
+  --color-accent-bg: var(--accent-bg);
+  --color-coral: var(--coral);
+  --color-coral-bg: var(--coral-bg);
+  --color-lavender: var(--lavender);
+  --color-lavender-bg: var(--lavender-bg);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius);
+  --radius-lg: var(--radius-lg);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
