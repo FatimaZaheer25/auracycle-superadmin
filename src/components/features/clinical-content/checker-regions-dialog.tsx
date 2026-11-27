@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Check, X } from "lucide-react";
-import type { CheckerRegion } from "@/types/clinical-content";
+import type { CheckerRegion } from "./types";
 import { Button, Label } from "@/components/ui";
 import { cn } from "@/lib/utils";
 

@@ -5,7 +5,7 @@ import {
   scheduleSafetyBlocked,
   scheduleSafetyPass,
   scheduleTimeline,
-} from "@/mock/subscriptions";
+} from "@/components/features/subscriptions/mock";
 
 export default function ScheduleTierChangePage() {
   return (

@@ -5,7 +5,7 @@ import {
   symptomCategories,
   symptomLifeStages,
   symptomTags,
-} from "@/mock/symptom-library";
+} from "@/components/features/symptom-library/mock";
 
 type NewSymptomPageProps = {
   searchParams: Promise<{ name?: string }>;

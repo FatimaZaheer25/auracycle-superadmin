@@ -1,5 +1,5 @@
-import type { UserDetail } from "@/types/user-detail";
-import { mockUsers } from "./users";
+import type { UserDetail } from "./user-detail.types";
+import { mockUsers } from "./mock";
 
 const baseDetail: UserDetail = {
   id: "USR-4F82-91C3",

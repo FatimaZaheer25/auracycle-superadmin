@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Calendar, CreditCard, Plus, Send, Shield } from "lucide-react";
-import type { PricingRegionRow } from "@/types/subscriptions";
+import type { PricingRegionRow } from "./types";
 import {
   Button,
   Input,

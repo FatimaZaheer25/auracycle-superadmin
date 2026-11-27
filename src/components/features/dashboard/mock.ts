@@ -5,7 +5,7 @@ import type {
   DashboardKpi,
   NamedShare,
   SubscriptionStats,
-} from "@/types/dashboard";
+} from "./types";
 
 export const dashboardMeta = {
   subtitle: "Last 30 days · Oct 21 – Nov 19, 2026 · FR-ADM-01",

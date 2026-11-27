@@ -14,7 +14,7 @@ import type {
   DataRequestQueueItem,
   DataRequestQueueStatus,
   DeletionProgressStep,
-} from "@/types/privacy-consent";
+} from "./types";
 import {
   Button,
   PageHeader,

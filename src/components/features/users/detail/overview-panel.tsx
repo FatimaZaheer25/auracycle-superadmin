@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import type { UserDetail } from "@/types/user-detail";
+import type { UserDetail } from "../user-detail.types";
 import { Badge } from "@/components/ui";
 import { DetailRow } from "./detail-row";
 

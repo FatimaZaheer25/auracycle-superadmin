@@ -1,6 +1,6 @@
 "use client";
 
-import type { AuditCategory } from "@/types/audit-log";
+import type { AuditCategory } from "./types";
 import { cn } from "@/lib/utils";
 
 type AuditFiltersProps = {

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { AdminUser } from "@/types/users";
+import type { AdminUser } from "./types";
 import { Badge } from "@/components/ui";
 import {
   Table,

@@ -5,3 +5,5 @@ export { NewRecoveryCaseView } from "./new-recovery-case-view";
 export { RecoveryCaseDetailView } from "./recovery-case-detail-view";
 export { RecoveryCasesTable } from "./recovery-cases-table";
 export { SlaAlertBanner } from "./sla-alert-banner";
+export type * from "./types";
+export * from "./mock";

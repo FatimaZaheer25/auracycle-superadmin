@@ -9,7 +9,7 @@ import {
   recoveryCodesMeta,
   securityInfo,
   timeZoneOptions,
-} from "@/mock/profile";
+} from "@/components/features/profile/mock";
 
 export default function ProfilePage() {
   return (

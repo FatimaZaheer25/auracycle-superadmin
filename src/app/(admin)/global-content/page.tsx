@@ -11,7 +11,7 @@ import {
   healthAssistantRules,
   topicFilters,
   unpublishDefaults,
-} from "@/mock/clinical-content";
+} from "@/components/features/clinical-content/mock";
 
 export default function GlobalContentPage() {
   return (

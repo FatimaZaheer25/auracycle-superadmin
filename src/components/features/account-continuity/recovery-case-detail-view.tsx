@@ -7,7 +7,7 @@ import {
   Lock,
   UserPlus,
 } from "lucide-react";
-import type { RecoveryCaseDetail } from "@/types/account-continuity";
+import type { RecoveryCaseDetail } from "./types";
 import {
   Button,
   PageHeader,

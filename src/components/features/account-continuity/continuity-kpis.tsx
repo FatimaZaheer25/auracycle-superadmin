@@ -1,5 +1,5 @@
 import { Clock, KeyRound, RefreshCw, Shield } from "lucide-react";
-import type { ContinuityKpi } from "@/types/account-continuity";
+import type { ContinuityKpi } from "./types";
 import { cn } from "@/lib/utils";
 
 type ContinuityKpisProps = {

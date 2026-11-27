@@ -5,7 +5,7 @@ import {
   suggestedCustomSymptoms,
   symptomKpis,
   symptomLibraryMeta,
-} from "@/mock/symptom-library";
+} from "@/components/features/symptom-library/mock";
 
 export default function SymptomLibraryPage() {
   return (

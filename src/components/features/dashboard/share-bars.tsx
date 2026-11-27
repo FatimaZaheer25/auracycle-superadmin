@@ -1,4 +1,4 @@
-import type { NamedShare } from "@/types/dashboard";
+import type { NamedShare } from "./types";
 import { cn } from "@/lib/utils";
 
 type ShareBarsProps = {

@@ -5,7 +5,7 @@ import type {
   CommunityTopic,
   ModerationReport,
   SecretChatRule,
-} from "@/types/community";
+} from "./types";
 import { Button, PageHeader } from "@/components/ui";
 import { CommunityKpis } from "./community-kpis";
 import { ModerationQueue } from "./moderation-queue";

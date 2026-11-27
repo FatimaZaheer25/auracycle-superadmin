@@ -6,4 +6,5 @@ export { AlertPreferencesCard } from "./alert-preferences-card";
 export { ConfirmIdentityDialog } from "./confirm-identity-dialog";
 export { RecoveryCodesDialog } from "./recovery-codes-dialog";
 export { LogoutAllDialog } from "./logout-all-dialog";
-
+export type * from "./types";
+export * from "./mock";

@@ -1,4 +1,4 @@
-import type { RetentionRow } from "@/types/privacy-consent";
+import type { RetentionRow } from "./types";
 import { cn } from "@/lib/utils";
 
 type RetentionCardProps = {

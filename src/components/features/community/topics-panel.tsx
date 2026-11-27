@@ -1,4 +1,4 @@
-import type { CommunityTopic, SecretChatRule } from "@/types/community";
+import type { CommunityTopic, SecretChatRule } from "./types";
 import { cn } from "@/lib/utils";
 
 type TopicsPanelProps = {

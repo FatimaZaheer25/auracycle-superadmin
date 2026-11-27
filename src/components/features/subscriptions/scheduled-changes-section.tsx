@@ -4,7 +4,7 @@ import type {
   GrandfatheredPerson,
   ScheduledChange,
   ScheduledChangeStatus,
-} from "@/types/subscriptions";
+} from "./types";
 import {
   Button,
   Table,

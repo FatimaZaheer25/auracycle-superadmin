@@ -1,4 +1,4 @@
-import type { SubscriptionStats } from "@/types/dashboard";
+import type { SubscriptionStats } from "./types";
 
 type SubscriptionsCardProps = {
   stats: SubscriptionStats;

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { PricingTier } from "@/types/subscriptions";
+import type { PricingTier } from "./types";
 import { cn } from "@/lib/utils";
 
 type TierCardsProps = {

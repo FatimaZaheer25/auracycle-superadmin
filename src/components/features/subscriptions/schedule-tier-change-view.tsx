@@ -15,7 +15,7 @@ import type {
   SafetyCheck,
   ScheduleFeatureOption,
   TimelineStep,
-} from "@/types/subscriptions";
+} from "./types";
 import { Button, Input, Label, PageHeader } from "@/components/ui";
 import { cn } from "@/lib/utils";
 

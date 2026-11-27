@@ -1,4 +1,4 @@
-import type { AuditEvent, AuditResultTone } from "@/types/audit-log";
+import type { AuditEvent, AuditResultTone } from "./types";
 import {
   Table,
   TableBody,

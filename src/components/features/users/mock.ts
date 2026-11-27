@@ -1,4 +1,4 @@
-import type { AdminUser, UserFilter } from "@/types/users";
+import type { AdminUser, UserFilter } from "./types";
 
 export const USERS_TOTAL = 1_286_540;
 

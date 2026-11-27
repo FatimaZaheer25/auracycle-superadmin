@@ -1,6 +1,6 @@
 "use client";
 
-import type { UserDetailTab } from "@/types/user-detail";
+import type { UserDetailTab } from "../user-detail.types";
 import { cn } from "@/lib/utils";
 
 const TABS: { id: UserDetailTab; label: string }[] = [

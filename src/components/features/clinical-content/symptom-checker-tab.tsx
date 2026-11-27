@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Lock, Send, X } from "lucide-react";
-import type { CheckerTopic } from "@/types/clinical-content";
+import type { CheckerTopic } from "./types";
 import { Button, Input, Label } from "@/components/ui";
 import { cn } from "@/lib/utils";
 

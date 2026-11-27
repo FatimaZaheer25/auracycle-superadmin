@@ -10,7 +10,7 @@ import type {
   ContentRatingReview,
   HealthAssistantRule,
   TopicFilter,
-} from "@/types/clinical-content";
+} from "./types";
 
 export const clinicalContentMeta: ClinicalContentMeta = {
   subtitle:

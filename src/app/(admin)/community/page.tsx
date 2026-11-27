@@ -5,7 +5,7 @@ import {
   communityTopics,
   moderationReports,
   secretChatRules,
-} from "@/mock/community";
+} from "@/components/features/community/mock";
 
 export default function CommunityPage() {
   return (

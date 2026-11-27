@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
-import type { UserDetail } from "@/types/user-detail";
+import type { UserDetail } from "../user-detail.types";
 import { Badge, Button } from "@/components/ui";
 import { cn } from "@/lib/utils";
 

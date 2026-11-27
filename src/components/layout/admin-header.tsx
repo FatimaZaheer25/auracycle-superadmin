@@ -3,7 +3,7 @@
 import { Menu, Search } from "lucide-react";
 import { NotificationsPopover } from "@/components/features/notifications";
 import { Button, Input } from "@/components/ui";
-import { notifications } from "@/mock/notifications";
+import { notifications } from "@/components/features/notifications/mock";
 import { ProfileMenu } from "./profile-menu";
 
 type AdminHeaderProps = {

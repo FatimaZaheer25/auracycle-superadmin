@@ -4,7 +4,7 @@ import type {
   SuggestedCustomSymptom,
   SymptomDetail,
   SymptomKpi,
-} from "@/types/symptom-library";
+} from "./types";
 
 export const symptomLibraryMeta = {
   totalCount: 74,

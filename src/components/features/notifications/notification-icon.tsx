@@ -7,7 +7,7 @@ import {
   Shield,
   Trash2,
 } from "lucide-react";
-import type { NotificationIcon as IconKind } from "@/types/notifications";
+import type { NotificationIcon as IconKind } from "./types";
 import { cn } from "@/lib/utils";
 
 const config: Record<

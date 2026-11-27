@@ -1,4 +1,4 @@
-import type { ActiveUsersPoint } from "@/types/dashboard";
+import type { ActiveUsersPoint } from "./types";
 
 type ActiveUsersChartProps = {
   data: ActiveUsersPoint[];

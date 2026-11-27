@@ -1,5 +1,5 @@
 import { FileText, KeyRound } from "lucide-react";
-import type { SecurityInfo } from "@/types/profile";
+import type { SecurityInfo } from "./types";
 import { Button } from "@/components/ui";
 import { cn } from "@/lib/utils";
 

@@ -1,4 +1,4 @@
-import type { ModerationReport, ModerationStatus } from "@/types/community";
+import type { ModerationReport, ModerationStatus } from "./types";
 import {
   Table,
   TableBody,

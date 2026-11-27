@@ -9,7 +9,7 @@ import type {
   SuggestedCustomSymptom,
   SymptomCategoryFilter,
   SymptomKpi,
-} from "@/types/symptom-library";
+} from "./types";
 import { Button, PageHeader } from "@/components/ui";
 import { CustomSymptomsPanel } from "./custom-symptoms-panel";
 import { ReviewSuggestedDialog } from "./review-suggested-dialog";

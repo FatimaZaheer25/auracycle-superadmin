@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Check, Pencil } from "lucide-react";
-import type { TierChangeApproval } from "@/types/subscriptions";
+import type { TierChangeApproval } from "./types";
 import { Button, Label, PageHeader } from "@/components/ui";
 import { cn } from "@/lib/utils";
 

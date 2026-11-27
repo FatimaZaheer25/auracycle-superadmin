@@ -3,7 +3,7 @@ import type {
   ArticleStatus,
   AudienceTier,
   ClinicalArticle,
-} from "@/types/clinical-content";
+} from "./types";
 import {
   Table,
   TableBody,

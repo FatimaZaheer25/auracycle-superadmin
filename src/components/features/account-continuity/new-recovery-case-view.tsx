@@ -4,7 +4,7 @@ import { useState, type ReactNode } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Check, Clock, Lock, User } from "lucide-react";
-import type { FoundAccountSummary, IdentifierKind } from "@/types/account-continuity";
+import type { FoundAccountSummary, IdentifierKind } from "./types";
 import { Button, Input, Label, PageHeader } from "@/components/ui";
 import { cn } from "@/lib/utils";
 

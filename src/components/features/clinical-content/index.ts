@@ -12,3 +12,5 @@ export { SymptomCheckerPanel } from "./symptom-checker-panel";
 export { SymptomCheckerTab } from "./symptom-checker-tab";
 export { TopicFilters } from "./topic-filters";
 export { UnpublishDialog } from "./unpublish-dialog";
+export type * from "./types";
+export * from "./mock";

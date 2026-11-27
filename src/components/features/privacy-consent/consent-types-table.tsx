@@ -2,7 +2,7 @@ import type {
   ConsentChangeNeed,
   ConsentDefault,
   ConsentType,
-} from "@/types/privacy-consent";
+} from "./types";
 import {
   Table,
   TableBody,

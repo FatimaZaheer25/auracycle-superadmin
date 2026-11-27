@@ -5,3 +5,5 @@ export { PricingView } from "./pricing-view";
 export { ScheduleTierChangeView } from "./schedule-tier-change-view";
 export { ScheduledChangesSection } from "./scheduled-changes-section";
 export { TierCards } from "./tier-cards";
+export type * from "./types";
+export * from "./mock";

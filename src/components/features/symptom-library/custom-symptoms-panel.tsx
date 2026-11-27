@@ -3,7 +3,7 @@
 import type {
   CustomSymptomsMeta,
   SuggestedCustomSymptom,
-} from "@/types/symptom-library";
+} from "./types";
 import { Button } from "@/components/ui";
 
 type CustomSymptomsPanelProps = {

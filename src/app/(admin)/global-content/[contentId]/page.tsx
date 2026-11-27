@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import { redirect } from "next/navigation";
-import { getClinicalArticle } from "@/mock/clinical-content";
+import { getClinicalArticle } from "@/components/features/clinical-content/mock";
 
 type ContentDetailPageProps = {
   params: Promise<{ contentId: string }>;

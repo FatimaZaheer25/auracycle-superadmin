@@ -1,4 +1,4 @@
-import type { DataRequestRule, DataRequestStat } from "@/types/privacy-consent";
+import type { DataRequestRule, DataRequestStat } from "./types";
 import { cn } from "@/lib/utils";
 
 type DataRequestsCardProps = {

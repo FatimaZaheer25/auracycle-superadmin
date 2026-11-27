@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { RecoveryCase, RecoveryStatus } from "@/types/account-continuity";
+import type { RecoveryCase, RecoveryStatus } from "./types";
 import {
   Table,
   TableBody,

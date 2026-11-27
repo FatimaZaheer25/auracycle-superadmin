@@ -1,4 +1,4 @@
-import type { IdentifierShare, OutcomeStat } from "@/types/account-continuity";
+import type { IdentifierShare, OutcomeStat } from "./types";
 import { cn } from "@/lib/utils";
 
 type ContinuityInsightsProps = {

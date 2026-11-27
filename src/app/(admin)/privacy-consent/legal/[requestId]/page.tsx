@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { LegalRequestView } from "@/components/features/privacy-consent/legal-request-view";
-import { getLegalRequest } from "@/mock/privacy-consent";
+import { getLegalRequest } from "@/components/features/privacy-consent/mock";
 
 type LegalRequestPageProps = {
   params: Promise<{ requestId: string }>;

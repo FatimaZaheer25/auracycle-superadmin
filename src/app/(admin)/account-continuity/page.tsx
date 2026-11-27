@@ -16,7 +16,7 @@ import {
   outcomeStats,
   outcomesMeta,
   recoveryCases,
-} from "@/mock/account-continuity";
+} from "@/components/features/account-continuity/mock";
 
 export default function AccountContinuityPage() {
   return (

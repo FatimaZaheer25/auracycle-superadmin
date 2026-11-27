@@ -2,7 +2,7 @@ import { NewRecoveryCaseView } from "@/components/features/account-continuity/ne
 import {
   foundAccountDemo,
   newCaseDefaults,
-} from "@/mock/account-continuity";
+} from "@/components/features/account-continuity/mock";
 
 export default function NewRecoveryCasePage() {
   return (

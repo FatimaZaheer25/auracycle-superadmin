@@ -2,8 +2,8 @@
 
 import { useMemo, useState } from "react";
 import { Download } from "lucide-react";
-import type { UserFilter } from "@/types/users";
-import { USERS_TOTAL, filterUsers, mockUsers } from "@/mock/users";
+import type { UserFilter } from "./types";
+import { USERS_TOTAL, filterUsers, mockUsers } from "./mock";
 import { Button, PageHeader } from "@/components/ui";
 import { PrivacyBanner } from "./privacy-banner";
 import { UserFilters } from "./user-filters";

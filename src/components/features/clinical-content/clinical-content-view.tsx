@@ -13,7 +13,7 @@ import type {
   ClinicalKpi,
   HealthAssistantRule,
   TopicFilter,
-} from "@/types/clinical-content";
+} from "./types";
 import { Button, PageHeader } from "@/components/ui";
 import { ArticlesTable } from "./articles-table";
 import { CheckerRegionsDialog } from "./checker-regions-dialog";

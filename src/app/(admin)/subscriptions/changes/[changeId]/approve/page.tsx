@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { ApproveTierChangeView } from "@/components/features/subscriptions/approve-tier-change-view";
-import { getTierChangeApproval } from "@/mock/subscriptions";
+import { getTierChangeApproval } from "@/components/features/subscriptions/mock";
 
 type ApprovePageProps = {
   params: Promise<{ changeId: string }>;

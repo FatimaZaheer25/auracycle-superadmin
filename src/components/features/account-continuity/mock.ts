@@ -6,7 +6,7 @@ import type {
   OutcomeStat,
   RecoveryCase,
   RecoveryCaseDetail,
-} from "@/types/account-continuity";
+} from "./types";
 
 export const continuityKpis: ContinuityKpi[] = [
   {

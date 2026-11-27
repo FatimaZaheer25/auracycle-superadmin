@@ -1,4 +1,4 @@
-import type { ActiveSession } from "@/types/profile";
+import type { ActiveSession } from "./types";
 import { Button } from "@/components/ui";
 import {
   Table,

@@ -2,7 +2,7 @@ import { NotificationsView } from "@/components/features/notifications";
 import {
   notifications,
   notificationsPageMeta,
-} from "@/mock/notifications";
+} from "@/components/features/notifications/mock";
 
 export default function NotificationsPage() {
   return (

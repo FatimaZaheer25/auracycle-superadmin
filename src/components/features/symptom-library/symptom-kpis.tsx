@@ -1,7 +1,7 @@
 "use client";
 
 import { List } from "lucide-react";
-import type { SymptomCategoryFilter, SymptomKpi } from "@/types/symptom-library";
+import type { SymptomCategoryFilter, SymptomKpi } from "./types";
 import { cn } from "@/lib/utils";
 
 type SymptomKpisProps = {

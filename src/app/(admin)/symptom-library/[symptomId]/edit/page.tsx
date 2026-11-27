@@ -5,7 +5,7 @@ import {
   getLibrarySymptom,
   symptomCategories,
   symptomTags,
-} from "@/mock/symptom-library";
+} from "@/components/features/symptom-library/mock";
 
 type EditSymptomPageProps = {
   params: Promise<{ symptomId: string }>;

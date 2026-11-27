@@ -1,4 +1,4 @@
-import type { HealthAssistantRule } from "@/types/clinical-content";
+import type { HealthAssistantRule } from "./types";
 import { cn } from "@/lib/utils";
 
 type HealthAssistantPanelProps = {

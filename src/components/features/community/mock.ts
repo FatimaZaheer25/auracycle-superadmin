@@ -4,7 +4,7 @@ import type {
   CommunityTopic,
   ModerationReport,
   SecretChatRule,
-} from "@/types/community";
+} from "./types";
 
 export const communityMeta: CommunityMeta = {
   subtitle: "Moderation queue, topics and Secret Chats · FR-ADM-04 · FR-CMN",

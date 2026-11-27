@@ -1,5 +1,5 @@
 import { Clock, Flag, MessageCircle, Shield } from "lucide-react";
-import type { CommunityKpi } from "@/types/community";
+import type { CommunityKpi } from "./types";
 import { cn } from "@/lib/utils";
 
 type CommunityKpisProps = {

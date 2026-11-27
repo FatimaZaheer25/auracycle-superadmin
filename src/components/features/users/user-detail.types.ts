@@ -1,4 +1,4 @@
-import type { AccountType, PlanType, SyncTone } from "./users";
+import type { AccountType, PlanType, SyncTone } from "./types";
 
 export type UserDetailTab =
   | "overview"

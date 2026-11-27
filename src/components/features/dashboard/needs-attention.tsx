@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
-import type { AttentionItem } from "@/types/dashboard";
+import type { AttentionItem } from "./types";
 import { cn } from "@/lib/utils";
 
 type NeedsAttentionProps = {

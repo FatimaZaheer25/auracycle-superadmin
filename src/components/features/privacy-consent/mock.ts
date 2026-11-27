@@ -7,7 +7,7 @@ import type {
   LegalRequestDetail,
   PrivacyMeta,
   RetentionRow,
-} from "@/types/privacy-consent";
+} from "./types";
 
 export const privacyMeta: PrivacyMeta = {
   subtitle: "Consent settings, data requests and retention · FR-PRV · FR-ADM-04",

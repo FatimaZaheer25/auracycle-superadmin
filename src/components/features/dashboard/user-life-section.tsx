@@ -1,4 +1,4 @@
-import type { ActiveUsersPoint, NamedShare } from "@/types/dashboard";
+import type { ActiveUsersPoint, NamedShare } from "./types";
 import { ActiveUsersChart } from "./active-users-chart";
 import { ShareBars } from "./share-bars";
 

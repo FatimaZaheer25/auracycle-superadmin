@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { LibrarySymptom } from "@/types/symptom-library";
+import type { LibrarySymptom } from "./types";
 import { Badge } from "@/components/ui";
 import {
   Table,

@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { UserDetailView } from "@/components/features/users/detail";
-import { getUserDetail } from "@/mock/user-detail";
+import { getUserDetail } from "@/components/features/users/user-detail.mock";
 
 type UserDetailPageProps = {
   params: Promise<{ userId: string }>;

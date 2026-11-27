@@ -9,7 +9,7 @@ import type {
   DashboardKpi,
   NamedShare,
   SubscriptionStats,
-} from "@/types/dashboard";
+} from "./types";
 import { Button, PageHeader } from "@/components/ui";
 import { ContinuityCard } from "./continuity-card";
 import { ExportReportDialog } from "./export-report-dialog";

@@ -1,6 +1,6 @@
 "use client";
 
-import type { SymptomCategoryFilter, SymptomKpi } from "@/types/symptom-library";
+import type { SymptomCategoryFilter, SymptomKpi } from "./types";
 import { cn } from "@/lib/utils";
 
 type SymptomFiltersProps = {

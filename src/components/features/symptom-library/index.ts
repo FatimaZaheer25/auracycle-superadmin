@@ -6,3 +6,5 @@ export { SymptomKpis } from "./symptom-kpis";
 export { SymptomFilters } from "./symptom-filters";
 export { SymptomsTable } from "./symptoms-table";
 export { CustomSymptomsPanel } from "./custom-symptoms-panel";
+export type * from "./types";
+export * from "./mock";

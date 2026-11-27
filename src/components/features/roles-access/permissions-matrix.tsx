@@ -3,7 +3,7 @@ import type {
   AdminRole,
   PermissionCell,
   PermissionRow,
-} from "@/types/roles-access";
+} from "./types";
 import {
   Table,
   TableBody,

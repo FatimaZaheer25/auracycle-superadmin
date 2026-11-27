@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { RecoveryCaseDetailView } from "@/components/features/account-continuity/recovery-case-detail-view";
-import { getRecoveryCaseDetail } from "@/mock/account-continuity";
+import { getRecoveryCaseDetail } from "@/components/features/account-continuity/mock";
 
 type CaseDetailPageProps = {
   params: Promise<{ caseId: string }>;

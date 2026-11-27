@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import type { UserDetail } from "@/types/user-detail";
+import type { UserDetail } from "../user-detail.types";
 import {
   Table,
   TableBody,

@@ -2,7 +2,7 @@ import type {
   AdminRole,
   PermissionRow,
   RolesAccessMeta,
-} from "@/types/roles-access";
+} from "./types";
 
 export const rolesAccessMeta: RolesAccessMeta = {
   subtitle: "Six roles with the least access each needs · FR-ADM-07 · NFR-SEC-08",

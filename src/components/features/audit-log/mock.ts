@@ -1,4 +1,4 @@
-import type { AuditCategory, AuditEvent, AuditMeta } from "@/types/audit-log";
+import type { AuditCategory, AuditEvent, AuditMeta } from "./types";
 
 export const auditMeta: AuditMeta = {
   subtitle:

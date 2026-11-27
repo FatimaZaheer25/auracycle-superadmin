@@ -7,7 +7,7 @@ import {
   Shield,
   Users,
 } from "lucide-react";
-import type { DashboardKpi } from "@/types/dashboard";
+import type { DashboardKpi } from "./types";
 import { cn } from "@/lib/utils";
 
 type KpiGridProps = {

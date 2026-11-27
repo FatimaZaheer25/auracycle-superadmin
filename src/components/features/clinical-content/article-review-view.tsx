@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Check, Pencil } from "lucide-react";
-import type { ArticleReviewDetail } from "@/types/clinical-content";
+import type { ArticleReviewDetail } from "./types";
 import {
   Button,
   Label,

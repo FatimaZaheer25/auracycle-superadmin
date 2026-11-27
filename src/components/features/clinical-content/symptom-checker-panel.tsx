@@ -1,4 +1,4 @@
-import type { CheckerRow } from "@/types/clinical-content";
+import type { CheckerRow } from "./types";
 import { cn } from "@/lib/utils";
 
 type SymptomCheckerPanelProps = {

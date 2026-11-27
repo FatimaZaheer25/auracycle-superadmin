@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { AssistantSource, HealthAssistantRule } from "@/types/clinical-content";
+import type { AssistantSource, HealthAssistantRule } from "./types";
 import {
   Table,
   TableBody,

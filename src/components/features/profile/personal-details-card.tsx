@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { KeyRound, Mail, Upload } from "lucide-react";
-import type { ProfileDetails } from "@/types/profile";
+import type { ProfileDetails } from "./types";
 import { Button, Input, Label } from "@/components/ui";
 
 type PersonalDetailsCardProps = {

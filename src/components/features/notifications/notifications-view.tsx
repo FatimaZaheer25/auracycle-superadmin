@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Check, Settings } from "lucide-react";
-import type { AppNotification, NotificationCategory } from "@/types/notifications";
+import type { AppNotification, NotificationCategory } from "./types";
 import { Button, PageHeader } from "@/components/ui";
 import { cn } from "@/lib/utils";
 import { NotificationIconBadge } from "./notification-icon";

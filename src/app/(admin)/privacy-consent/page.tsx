@@ -5,7 +5,7 @@ import {
   dataRequestStats,
   privacyMeta,
   retentionRows,
-} from "@/mock/privacy-consent";
+} from "@/components/features/privacy-consent/mock";
 
 export default function PrivacyConsentPage() {
   return (

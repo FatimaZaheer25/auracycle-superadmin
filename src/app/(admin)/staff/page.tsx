@@ -4,7 +4,7 @@ import {
   inviteRoleOptions,
   permissionRows,
   rolesAccessMeta,
-} from "@/mock/roles-access";
+} from "@/components/features/roles-access/mock";
 
 export default function RolesAccessPage() {
   return (

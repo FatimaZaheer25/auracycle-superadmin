@@ -6,7 +6,7 @@ import type {
   AdminRole,
   PermissionRow,
   RolesAccessMeta,
-} from "@/types/roles-access";
+} from "./types";
 import { Button, PageHeader } from "@/components/ui";
 import {
   InviteAdminDialog,

@@ -4,7 +4,7 @@ import type {
   ProfileDetails,
   ProfileMeta,
   SecurityInfo,
-} from "@/types/profile";
+} from "./types";
 
 export const profileMeta: ProfileMeta = {
   breadcrumb: "Account",

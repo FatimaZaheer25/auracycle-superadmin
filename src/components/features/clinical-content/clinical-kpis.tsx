@@ -1,5 +1,5 @@
 import { Clock, FileText, Smartphone, Shield } from "lucide-react";
-import type { ClinicalKpi } from "@/types/clinical-content";
+import type { ClinicalKpi } from "./types";
 import { cn } from "@/lib/utils";
 
 type ClinicalKpisProps = {

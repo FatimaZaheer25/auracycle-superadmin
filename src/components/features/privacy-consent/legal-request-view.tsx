@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { BarChart3, Check, ExternalLink } from "lucide-react";
-import type { LegalRequestDetail } from "@/types/privacy-consent";
+import type { LegalRequestDetail } from "./types";
 import {
   Button,
   Label,

@@ -8,7 +8,7 @@ import {
   dashboardMeta,
   lifeStageShares,
   subscriptionStats,
-} from "@/mock/dashboard";
+} from "@/components/features/dashboard/mock";
 
 export default function DashboardPage() {
   return (

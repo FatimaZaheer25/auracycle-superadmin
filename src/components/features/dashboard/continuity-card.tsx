@@ -1,4 +1,4 @@
-import type { ContinuityStats } from "@/types/dashboard";
+import type { ContinuityStats } from "./types";
 
 type ContinuityCardProps = {
   stats: ContinuityStats;

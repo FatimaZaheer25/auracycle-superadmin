@@ -4,7 +4,7 @@ import {
   dataRequestQueueKpis,
   dataRequestsPageMeta,
   deletionProgressById,
-} from "@/mock/privacy-consent";
+} from "@/components/features/privacy-consent/mock";
 
 export default function DataRequestsPage() {
   return (

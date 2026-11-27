@@ -9,7 +9,7 @@ import type {
   ProfileDetails,
   ProfileMeta,
   SecurityInfo,
-} from "@/types/profile";
+} from "./types";
 import { Button, PageHeader } from "@/components/ui";
 import { ActiveSessionsCard } from "./active-sessions-card";
 import { AlertPreferencesCard } from "./alert-preferences-card";

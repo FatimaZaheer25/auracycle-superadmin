@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import type { UserDetail, UserDetailTab } from "@/types/user-detail";
+import type { UserDetail, UserDetailTab } from "../user-detail.types";
 import { CycleLogsPanel } from "./cycle-logs-panel";
 import { DevicesSyncPanel } from "./devices-sync-panel";
 import { MaskedViewBanner } from "./masked-view-banner";

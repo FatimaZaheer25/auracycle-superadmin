@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { Download } from "lucide-react";
-import type { AuditCategory, AuditEvent, AuditMeta } from "@/types/audit-log";
+import type { AuditCategory, AuditEvent, AuditMeta } from "./types";
 import { Button, PageHeader } from "@/components/ui";
 import { AuditBanner } from "./audit-banner";
 import { AuditEventsTable } from "./audit-events-table";

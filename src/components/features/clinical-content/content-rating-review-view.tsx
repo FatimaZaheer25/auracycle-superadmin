@@ -10,7 +10,7 @@ import {
   RefreshCw,
   Shield,
 } from "lucide-react";
-import type { ContentRatingReview } from "@/types/clinical-content";
+import type { ContentRatingReview } from "./types";
 import {
   Button,
   PageHeader,

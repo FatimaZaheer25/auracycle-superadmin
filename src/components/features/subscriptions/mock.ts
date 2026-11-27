@@ -9,7 +9,7 @@ import type {
   SafetyCheck,
   TimelineStep,
   TierChangeApproval,
-} from "@/types/subscriptions";
+} from "./types";
 
 export const pricingTiers: PricingTier[] = [
   {

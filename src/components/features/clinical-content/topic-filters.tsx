@@ -1,6 +1,6 @@
 "use client";
 
-import type { TopicFilter } from "@/types/clinical-content";
+import type { TopicFilter } from "./types";
 import { cn } from "@/lib/utils";
 
 type TopicFiltersProps = {

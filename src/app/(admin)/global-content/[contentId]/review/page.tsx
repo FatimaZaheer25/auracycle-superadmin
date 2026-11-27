@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { ArticleReviewView } from "@/components/features/clinical-content/article-review-view";
-import { getArticleReview } from "@/mock/clinical-content";
+import { getArticleReview } from "@/components/features/clinical-content/mock";
 
 type ReviewPageProps = {
   params: Promise<{ contentId: string }>;

@@ -1,7 +1,7 @@
 "use client";
 
-import type { UserFilter } from "@/types/users";
-import { USER_FILTERS } from "@/mock/users";
+import type { UserFilter } from "./types";
+import { USER_FILTERS } from "./mock";
 import { cn } from "@/lib/utils";
 
 type UserFiltersProps = {

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { Check, Shield, X } from "lucide-react";
-import type { SuggestedCustomSymptom } from "@/types/symptom-library";
+import type { SuggestedCustomSymptom } from "./types";
 import { Button } from "@/components/ui";
 import { cn } from "@/lib/utils";
 

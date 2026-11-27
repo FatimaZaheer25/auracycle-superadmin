@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Bell, ChevronRight } from "lucide-react";
-import type { AppNotification } from "@/types/notifications";
+import type { AppNotification } from "./types";
 import { cn } from "@/lib/utils";
 import { NotificationIconBadge } from "./notification-icon";
 

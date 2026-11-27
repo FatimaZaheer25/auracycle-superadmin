@@ -14,7 +14,7 @@ import {
   grandfatheredPeople,
   pricingTiers,
   scheduledChanges,
-} from "@/mock/subscriptions";
+} from "@/components/features/subscriptions/mock";
 
 export default function SubscriptionsPage() {
   return (

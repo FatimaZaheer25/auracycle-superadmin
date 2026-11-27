@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { AlertPreference } from "@/types/profile";
+import type { AlertPreference } from "./types";
 import { cn } from "@/lib/utils";
 
 type AlertPreferencesCardProps = {

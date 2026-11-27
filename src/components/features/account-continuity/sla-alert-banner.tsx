@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { AlertTriangle } from "lucide-react";
-import type { ContinuitySlaAlert } from "@/types/account-continuity";
+import type { ContinuitySlaAlert } from "./types";
 import { Button } from "@/components/ui";
 
 type SlaAlertBannerProps = {

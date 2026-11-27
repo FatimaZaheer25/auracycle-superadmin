@@ -1,5 +1,5 @@
 import { Check, Minus } from "lucide-react";
-import type { FeatureMatrixRow } from "@/types/subscriptions";
+import type { FeatureMatrixRow } from "./types";
 import {
   Table,
   TableBody,

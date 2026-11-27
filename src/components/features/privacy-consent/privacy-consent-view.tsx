@@ -6,7 +6,7 @@ import type {
   DataRequestStat,
   PrivacyMeta,
   RetentionRow,
-} from "@/types/privacy-consent";
+} from "./types";
 import { Button, PageHeader } from "@/components/ui";
 import { ConsentTypesTable } from "./consent-types-table";
 import { DataRequestsCard } from "./data-requests-card";

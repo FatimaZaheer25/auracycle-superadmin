@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Check } from "lucide-react";
-import type { SymptomLifeStage } from "@/types/symptom-library";
+import type { SymptomLifeStage } from "./types";
 import { Button, Input, Label, PageHeader } from "@/components/ui";
 import { cn } from "@/lib/utils";
 

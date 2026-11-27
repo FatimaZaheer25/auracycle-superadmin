@@ -1,4 +1,4 @@
-import type { GrandfatherStep } from "@/types/subscriptions";
+import type { GrandfatherStep } from "./types";
 import { cn } from "@/lib/utils";
 
 type GrandfatheringProps = {
