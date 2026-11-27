@@ -34,7 +34,7 @@ export function AdminShellFallback({
       </aside>
       <div className="flex min-h-0 min-w-0 flex-1 flex-col">
         <div className="h-16 shrink-0 border-b border-border bg-surface" />
-        <main className="min-h-0 flex-1 overflow-y-auto p-4 md:p-6">
+        <main className="scroll-on-interact min-h-0 flex-1 overflow-y-auto p-4 md:p-6">
           {children}
         </main>
       </div>

@@ -92,3 +92,46 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+
+/* Hide scrollbars until the area is hovered, focused, or active (clicked). */
+.scroll-on-interact {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scroll-on-interact::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.scroll-on-interact:hover,
+.scroll-on-interact:focus,
+.scroll-on-interact:focus-within,
+.scroll-on-interact:active {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in oklab, var(--muted-foreground) 55%, transparent)
+    transparent;
+}
+
+.scroll-on-interact:hover::-webkit-scrollbar,
+.scroll-on-interact:focus::-webkit-scrollbar,
+.scroll-on-interact:focus-within::-webkit-scrollbar,
+.scroll-on-interact:active::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scroll-on-interact:hover::-webkit-scrollbar-thumb,
+.scroll-on-interact:focus::-webkit-scrollbar-thumb,
+.scroll-on-interact:focus-within::-webkit-scrollbar-thumb,
+.scroll-on-interact:active::-webkit-scrollbar-thumb {
+  background: color-mix(in oklab, var(--muted-foreground) 55%, transparent);
+  border-radius: 999px;
+}
+
+.scroll-on-interact:hover::-webkit-scrollbar-track,
+.scroll-on-interact:focus::-webkit-scrollbar-track,
+.scroll-on-interact:focus-within::-webkit-scrollbar-track,
+.scroll-on-interact:active::-webkit-scrollbar-track {
+  background: transparent;
+}

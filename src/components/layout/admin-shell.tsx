@@ -17,7 +17,10 @@ export function AdminShell({ children }: AdminShellProps) {
 
       <div className="flex min-h-0 min-w-0 flex-1 flex-col">
         <AdminHeader onMenuClick={() => setMobileOpen(true)} />
-        <main className="min-h-0 flex-1 overflow-y-auto p-4 md:p-6">
+        <main
+          tabIndex={0}
+          className="scroll-on-interact min-h-0 flex-1 overflow-y-auto p-4 md:p-6 outline-none"
+        >
           {children}
         </main>
       </div>

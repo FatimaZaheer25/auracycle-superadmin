@@ -54,7 +54,10 @@ export function Sidebar({ mobileOpen = false, onClose }: SidebarProps) {
           </button>
         </div>
 
-        <nav className="flex-1 overflow-y-auto px-3 py-4">
+        <nav
+          tabIndex={0}
+          className="scroll-on-interact flex-1 overflow-y-auto px-3 py-4 outline-none"
+        >
           <div className="space-y-5">
             {ADMIN_NAV_GROUPS.map((group) => (
               <div key={group.label}>
