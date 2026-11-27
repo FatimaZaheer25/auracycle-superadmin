@@ -29,7 +29,7 @@ export function Sidebar({ mobileOpen = false, onClose }: SidebarProps) {
 
       <aside
         className={cn(
-          "fixed inset-y-0 left-0 z-50 flex w-[var(--sidebar-width)] flex-col border-r border-border bg-surface transition-transform duration-200 md:static md:translate-x-0",
+          "fixed inset-y-0 left-0 z-50 flex h-dvh w-[var(--sidebar-width)] shrink-0 flex-col border-r border-border bg-surface transition-transform duration-200 md:sticky md:top-0 md:translate-x-0",
           mobileOpen ? "translate-x-0" : "-translate-x-full",
         )}
         aria-label="Admin navigation"

@@ -12,12 +12,14 @@ export function AdminShell({ children }: AdminShellProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <div className="flex min-h-screen bg-background">
+    <div className="flex h-dvh overflow-hidden bg-background">
       <Sidebar mobileOpen={mobileOpen} onClose={() => setMobileOpen(false)} />
 
-      <div className="flex min-w-0 flex-1 flex-col">
+      <div className="flex min-h-0 min-w-0 flex-1 flex-col">
         <AdminHeader onMenuClick={() => setMobileOpen(true)} />
-        <main className="flex-1 overflow-auto p-4 md:p-6">{children}</main>
+        <main className="min-h-0 flex-1 overflow-y-auto p-4 md:p-6">
+          {children}
+        </main>
       </div>
     </div>
   );

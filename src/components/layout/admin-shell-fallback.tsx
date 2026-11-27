@@ -6,13 +6,13 @@ export function AdminShellFallback({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex min-h-screen bg-background">
-      <aside className="hidden w-[var(--sidebar-width)] shrink-0 border-r border-border bg-surface md:block">
+    <div className="flex h-dvh overflow-hidden bg-background">
+      <aside className="sticky top-0 hidden h-dvh w-[var(--sidebar-width)] shrink-0 border-r border-border bg-surface md:block">
         <div className="border-b border-border px-4 py-4">
           <p className="text-sm font-semibold">AuraCycle</p>
           <p className="text-xs text-muted">Super Admin Console</p>
         </div>
-        <nav className="space-y-4 px-3 py-4">
+        <nav className="space-y-4 overflow-y-auto px-3 py-4">
           {ADMIN_NAV_GROUPS.map((group) => (
             <div key={group.label}>
               <p className="mb-1 px-2 text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
@@ -32,9 +32,11 @@ export function AdminShellFallback({
           ))}
         </nav>
       </aside>
-      <div className="flex min-w-0 flex-1 flex-col">
-        <div className="h-16 border-b border-border bg-surface" />
-        <main className="flex-1 p-4 md:p-6">{children}</main>
+      <div className="flex min-h-0 min-w-0 flex-1 flex-col">
+        <div className="h-16 shrink-0 border-b border-border bg-surface" />
+        <main className="min-h-0 flex-1 overflow-y-auto p-4 md:p-6">
+          {children}
+        </main>
       </div>
     </div>
   );
